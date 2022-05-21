@@ -14,7 +14,8 @@ python_web_app
 │      uniupo_logo.svg
 │      mystyle.css
 │   
-└───templates (empty for the moment)
+└───templates
+       .gitignore (ignore this file)
 ```
 
 ## Creating the Conda environment

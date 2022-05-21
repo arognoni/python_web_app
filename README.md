@@ -7,8 +7,9 @@ You can download it (as a .zip folder) by clicking the "code" button at the top-
 ```
 python_web_app
 │   README.md
-│   crypto_data.csv    
-│
+│   crypto_data.csv  
+│   environment.yml
+│   
 └───static
 │      uniupo_logo.svg
 │      mystyle.css

@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    margin-left: 30px;
+  }
+  
+  h1 {
+    margin-top: 2cm;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+  }
+  ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:36px;
+    background:#d92626;
+    font-size:16px;
+}
+ul.nav li { /* blocco nel menù */
+    border-right:1px solid white;
+    float:left;
+}
+ul.nav a { /* oggetto scritto */
+    display:block;
+    padding:0 28px;
+    color: white;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#990000;
+}

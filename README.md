@@ -62,7 +62,7 @@ To get real-time cryptocurrency prices, we will use the Binance API. The documen
 
 In particular, we will make a GET request to:
 
-`https://www.binance.com/api/v3/ticker/price?symbols=["ETHUSDT","DOGEUSDT","BTCUSDT"]`
+`https://api.binance.com/api/v3/ticker/price?symbols=["ETHUSDT","DOGEUSDT","BTCUSDT"]`
 
 The data we will receive is a JSON having this shape:
 ```

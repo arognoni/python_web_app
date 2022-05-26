@@ -3,6 +3,18 @@
 This repository contains the material for the "Python web applications" course.
 You can download it (as a .zip folder) by clicking the "code" button at the top-right corner of the window.
 
+## Important notice
+
+There are several additions to the web app we coded during the lessons. These variations
+are extensively commented in the code. They are marked with "Addition" keyword. The new features include:
+- Templates have been added to data and about_us
+- data now counts the number of visits of the page (through `counter` and the `global` keyword)
+- The links to the crypto pages are listed in the main page through a for loop in the template
+- A button allows the user to go to the next crypto. Once Ethereum is reached, the button changes to "start over" through an if-else statement
+
+This repository contains the material for the "Python web applications" course.
+You can download it (as a .zip folder) by clicking the "code" button at the top-right corner of the window.
+
 ## Directory structure
 ```
 python_web_app
